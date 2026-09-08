@@ -4,7 +4,7 @@
   <header></header>
 
   <main>
-    <h1>Portfolio</h1>
+    <h1 class="text-3xl font-bold underline">Portfolio</h1>
   </main>
 </template>
 
