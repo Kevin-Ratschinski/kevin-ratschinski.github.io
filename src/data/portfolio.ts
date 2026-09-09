@@ -47,7 +47,7 @@ export const projects: Project[] = [
 
 export const socials: Social[] = [
   { label: "GitHub", href: "https://github.com/kevin-ratschinski" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/kevin-ratschinski" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/kevin-ratschinski-58b6b221a" },
 ];
 
 export const techStack: TechItem[] = [
