@@ -22,10 +22,12 @@ export interface TechItem {
 
 export const typingWords: string[] = ["TypeScript", "Python", "Go", "Pixi.js", "Godot", "vLLM"];
 
+export const tagline: string = "Software Engineer | Love for Code, Games, and Creative Challenges";
+
 export const strengths: Strength[] = [
   {
     title: "Game Development",
-    description: " I build games and intercative experiences with Pixi.js and Godot.",
+    description: " I build games and interactive experiences with Pixi.js and Godot.",
     tags: ["Pixi.js", "TypeScript", "Godot", "WebGPU", "WebGL"],
   },
   {
