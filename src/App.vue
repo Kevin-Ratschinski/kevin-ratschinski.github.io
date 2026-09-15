@@ -1,10 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeroSection from "./components/HeroSection.vue";
+</script>
 
 <template>
   <header></header>
 
   <main>
-    <h1 class="text-3xl font-bold underline">Portfolio</h1>
+    <HeroSection />
   </main>
 </template>
 
