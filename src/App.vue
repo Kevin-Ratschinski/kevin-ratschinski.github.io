@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HeroSection from "./components/HeroSection.vue";
 import SiteHeader from "./components/SiteHeader.vue";
+import TechMarquee from "./components/TechMarquee.vue";
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import SiteHeader from "./components/SiteHeader.vue";
 
   <main>
     <HeroSection />
+    <TechMarquee />
   </main>
 </template>
 
