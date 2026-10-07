@@ -8,7 +8,7 @@ const paragraphs: string[] = [
 </script>
 
 <template>
-  <section id="about" class="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-12">
+  <section id="about" v-reveal class="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-12">
     <div class="grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-16">
       <div>
         <p class="font-mono text-sm text-(--color-accent)">03 — About</p>
@@ -16,7 +16,7 @@ const paragraphs: string[] = [
       </div>
 
       <div class="max-w-2xl space-y-4 text-gray-400 sm:text-lg">
-        <p v-for="paragraph in paragraphs" :key="paragraph">
+        <p v-for="paragraph in paragraphs" v-reveal :key="paragraph">
           {{ paragraph }}
         </p>
 

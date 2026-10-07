@@ -3,13 +3,14 @@ import { projects } from "../data/portfolio";
 </script>
 
 <template>
-  <section id="projects" class="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-12">
+  <section id="projects" v-reveal class="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-12">
     <p class="font-mono text-sm text-(--color-accent)">02 — Work</p>
     <h2 class="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">Selected projects</h2>
 
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <a
         v-for="project in projects"
+        v-reveal
         :key="project.title"
         :href="project.href"
         target="_blank"
