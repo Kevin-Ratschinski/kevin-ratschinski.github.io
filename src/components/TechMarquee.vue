@@ -4,8 +4,8 @@ import { techStack } from "../data/portfolio";
 
 <template>
   <section class="relative overflow-hidden border-y border-white/5 py-6" aria-label="Tech stack">
-    <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#0a0a0a] to-transparent" aria-hidden="true"></div>
-    <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#0a0a0a] to-transparent" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-linear-to-r from-[#0a0a0a] to-transparent" aria-hidden="true"></div>
+    <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-linear-to-r from-[#0a0a0a] to-transparent" aria-hidden="true"></div>
 
     <div class="marquee-track flex w-max gap-3">
       <span
