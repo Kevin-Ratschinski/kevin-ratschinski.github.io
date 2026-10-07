@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AboutSection from "./components/AboutSection.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ProjectsSection from "./components/Projects.Section.vue";
 import SiteHeader from "./components/SiteHeader.vue";
@@ -14,6 +15,7 @@ import TechMarquee from "./components/TechMarquee.vue";
     <TechMarquee />
     <StrengthsSection />
     <ProjectsSection />
+    <AboutSection />
   </main>
 </template>
 
