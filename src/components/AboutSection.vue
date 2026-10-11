@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const paragraphs: string[] = [
-  "I am a software developer focused on building games and interactive experiences.",
-  "Most of my work happens at the intersection of TypeScript, Pixi.js, and Godot - from small prototypes to complete gameplay systems.",
-  "Alongside that, I run and serve open-source LLMs locally, tuning them for my own hardware and exposing them through vLLM.",
-  "I care about clean, understandable code and like problems that are both technical and creative.",
+  "I am a software engineer with a focus on integrating AI into business processes and developing games and interactive experiences.",
+  "My AI work starts with the workflow: where can AI reduce repetitive work, and how can it fit into the tools people already use? I build integrations around those needs.",
+  "I also work with local, open-source language models, adapting their setup to the available hardware and serving them.",
+  "On the creative side, I use TypeScript, Python, Pixi.js, and Godot to turn ideas into playable experiences. Across both areas, I value clear code and software that is easy to maintain.",
 ];
 </script>
 
@@ -22,7 +22,7 @@ const paragraphs: string[] = [
 
         <p>
           <a href="mailto:kevin.ratschinski@gmail.com" class="font-medium text-(--color-accent) underline-offset-4 hover:underline"> Let's talk </a>
-          about games, local AI, or anything in between.
+          about Software, practical AI, and ideas worth building.
         </p>
       </div>
     </div>
