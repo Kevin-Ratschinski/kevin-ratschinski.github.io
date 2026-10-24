@@ -29,13 +29,21 @@ export const tagline: string = "Software Engineer | Love for Code, Games, and Cr
 export const strengths: Strength[] = [
   {
     title: "Game Development",
-    description: " I build games and interactive experiences with PixiJS and Godot.",
-    tags: ["PixiJS", "TypeScript", "Godot", "WebGPU", "WebGL"],
+    description:
+      "I build interactive games and reusable frameworks, with experience spanning PixiJS frontends and Java backends. My focus is on creating a shared technical foundation that makes new games easier to develop.",
+    tags: ["PixiJS", "TypeScript", "Java", "Godot"],
   },
   {
-    title: "Local AI & LLM Serving",
-    description: "I run and serve open-source LLMs locally, optimized and exposed via vLLM.",
-    tags: ["vLLM", "Python", "HuggingFace", "Self-hosted"],
+    title: "AI Infrastructure & Integration",
+    description:
+      "I bring AI into practical use by hosting language models, managing API access, and connecting AI applications to company data and workflows. My work covers local inference, load balancing, and monitoring.",
+    tags: ["vLLM", "LiteLLM", "MCP", "Grafana"],
+  },
+  {
+    title: "Internal Tools & Automation",
+    description:
+      "I turn everyday business processes into focused applications-from access approvals and visitor registration to dedicated kiosk interfaces. I build across frontend, backend, and database to deliver tools that fit the way people work.",
+    tags: ["TypeScript", "React", "Node.js", "PostgreSQL", "Electron"],
   },
 ];
 
