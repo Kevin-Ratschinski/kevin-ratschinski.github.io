@@ -11,7 +11,7 @@ const paragraphs: string[] = [
   <section id="about" v-reveal class="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-12">
     <div class="grid gap-10 sm:grid-cols-[auto_1fr] sm:gap-16">
       <div>
-        <p class="font-mono text-sm text-(--color-accent)">03 — About</p>
+        <p class="font-mono text-sm text-(--color-accent)">03 | About</p>
         <h2 class="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">A bit about me</h2>
       </div>
 

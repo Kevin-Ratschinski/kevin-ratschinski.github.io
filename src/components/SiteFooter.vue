@@ -9,7 +9,7 @@ const year = new Date().getFullYear();
   <footer id="contact" class="mt-12 scroll-mt-20 border-t border-white/5">
     <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 sm:px-12">
       <div>
-        <p class="font-mono text-sm text-(--color-accent)">04 — Contact</p>
+        <p class="font-mono text-sm text-(--color-accent)">04 | Contact</p>
         <h2 class="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">Let's build something</h2>
         <a
           :href="`mailto:${email}`"
