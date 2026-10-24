@@ -1,9 +1,8 @@
 <script setup lang="ts">
 const paragraphs: string[] = [
-  "I am a software engineer with a focus on integrating AI into business processes and developing games and interactive experiences.",
-  "My AI work starts with the workflow: where can AI reduce repetitive work, and how can it fit into the tools people already use? I build integrations around those needs.",
-  "I also work with local, open-source language models, adapting their setup to the available hardware and serving them.",
-  "On the creative side, I use TypeScript, Python, PixiJS, and Godot to turn ideas into playable experiences. Across both areas, I value clear code and software that is easy to maintain.",
+  "I’m a software engineer working across game development, practical AI, and internal tools. I enjoy turning complex requirements into software that is straightforward to use and easy to build on.",
+  "When building business applications or AI integrations, I start with how people work: what slows them down, which tasks repeat, and where better tools can help. From local language models to approval workflows, I focus on solutions that fit into everyday work.",
+  "Game development brings out my creative side. I enjoy turning ideas into playable experiences and building reusable foundations for new games. Across everything I build, I care about clear code, maintainability, and room to keep improving.",
 ];
 </script>
 
@@ -22,7 +21,7 @@ const paragraphs: string[] = [
 
         <p>
           <a href="mailto:kevin.ratschinski@gmail.com" class="font-medium text-(--color-accent) underline-offset-4 hover:underline"> Let's talk </a>
-          about Software, practical AI, and ideas worth building.
+          about practical AI, games, or something you’d like to build.
         </p>
       </div>
     </div>
