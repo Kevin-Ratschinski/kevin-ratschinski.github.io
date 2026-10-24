@@ -22,7 +22,7 @@ export interface TechItem {
   label: string;
 }
 
-export const typingWords: string[] = ["TypeScript", "Python", "Go", "PixiJS", "Godot", "vLLM"];
+export const typingWords: string[] = ["TypeScript", "Python", "Go", "Docker", "PixiJS", "Vite", "Godot", "vLLM"];
 
 export const tagline: string = "Software Engineer | Love for Code, Games, and Creative Challenges";
 
@@ -30,20 +30,20 @@ export const strengths: Strength[] = [
   {
     title: "Game Development",
     description:
-      "I build interactive games and reusable frameworks, with experience spanning PixiJS frontends and Java backends. My focus is on creating a shared technical foundation that makes new games easier to develop.",
-    tags: ["PixiJS", "TypeScript", "Java", "Godot"],
+      "I create interactive games and reusable frameworks that make game development faster, smarter, and more scalable. From PixiJS frontends to Java backends, I build the foundations that power new experiences.",
+    tags: ["TypeScript", "PixiJS", "Vite", "Java", "Godot"],
   },
   {
     title: "AI Infrastructure & Integration",
     description:
       "I bring AI into practical use by hosting language models, managing API access, and connecting AI applications to company data and workflows. My work covers local inference, load balancing, and monitoring.",
-    tags: ["vLLM", "LiteLLM", "MCP", "Grafana"],
+    tags: ["vLLM", "llama.cpp", "LiteLLM", "MCP", "Grafana"],
   },
   {
     title: "Internal Tools & Automation",
     description:
-      "I turn everyday business processes into focused applications-from access approvals and visitor registration to dedicated kiosk interfaces. I build across frontend, backend, and database to deliver tools that fit the way people work.",
-    tags: ["TypeScript", "React", "Node.js", "PostgreSQL", "Electron"],
+      "I transform everyday business challenges into intuitive, purpose-built applications. From access management and visitor registration to custom kiosk experiences, I build seamless solutions across frontend, backend, and database - designed around the people who use them.",
+    tags: ["TypeScript", "React", "Vue", "Node.js", "PostgreSQL", "Electron"],
   },
 ];
 
@@ -57,7 +57,7 @@ export const projects: Project[] = [
   },
   {
     title: "Slot Game Development",
-    description: "A range of slot games spanning interactive TypeScript and PixiJS frontends and Java backends.",
+    description: "Developed a variety of engaging slot games featuring unique mechanics, exciting features, and immersive gameplay experiences.",
     tags: ["TypeScript", "PixiJS", "Java"],
     href: "",
     linkEnabled: false,
@@ -65,14 +65,14 @@ export const projects: Project[] = [
   {
     title: "Access & Approval Management",
     description: "An internal application for managing user permissions and guiding access requests through a structured approval workflow.",
-    tags: ["TypeScript", "Node.js"],
+    tags: ["TypeScript", "Vue", "Node.js", "PostgreSQL"],
     href: "",
     linkEnabled: false,
   },
   {
     title: "Visitor Registration Terminal",
     description: "A visitor check-in application that records company visits and gives reception staff a clear overview of registered visitors.",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    tags: ["React", "Node.js", "PostgreSQL", "Docker"],
     href: "",
     linkEnabled: false,
   },
@@ -117,6 +117,9 @@ export const techStack: TechItem[] = [
   { label: "TypeScript" },
   { label: "Vue" },
   { label: "React" },
+  { label: "Node.js" },
+  { label: "Vite" },
+  { label: "Docker" },
   { label: "Tailwind CSS" },
   { label: "PixiJS" },
   { label: "Godot" },
@@ -124,4 +127,6 @@ export const techStack: TechItem[] = [
   { label: "Python" },
   { label: "vLLM" },
   { label: "llama.cpp" },
+  { label: "LiteLLM" },
+  { label: "Grafana" },
 ];
