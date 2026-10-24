@@ -3,7 +3,7 @@ const paragraphs: string[] = [
   "I am a software engineer with a focus on integrating AI into business processes and developing games and interactive experiences.",
   "My AI work starts with the workflow: where can AI reduce repetitive work, and how can it fit into the tools people already use? I build integrations around those needs.",
   "I also work with local, open-source language models, adapting their setup to the available hardware and serving them.",
-  "On the creative side, I use TypeScript, Python, Pixi.js, and Godot to turn ideas into playable experiences. Across both areas, I value clear code and software that is easy to maintain.",
+  "On the creative side, I use TypeScript, Python, PixiJS, and Godot to turn ideas into playable experiences. Across both areas, I value clear code and software that is easy to maintain.",
 ];
 </script>
 

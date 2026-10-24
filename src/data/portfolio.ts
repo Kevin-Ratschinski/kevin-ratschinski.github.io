@@ -22,15 +22,15 @@ export interface TechItem {
   label: string;
 }
 
-export const typingWords: string[] = ["TypeScript", "Python", "Go", "Pixi.js", "Godot", "vLLM"];
+export const typingWords: string[] = ["TypeScript", "Python", "Go", "PixiJS", "Godot", "vLLM"];
 
 export const tagline: string = "Software Engineer | Love for Code, Games, and Creative Challenges";
 
 export const strengths: Strength[] = [
   {
     title: "Game Development",
-    description: " I build games and interactive experiences with Pixi.js and Godot.",
-    tags: ["Pixi.js", "TypeScript", "Godot", "WebGPU", "WebGL"],
+    description: " I build games and interactive experiences with PixiJS and Godot.",
+    tags: ["PixiJS", "TypeScript", "Godot", "WebGPU", "WebGL"],
   },
   {
     title: "Local AI & LLM Serving",
@@ -42,15 +42,15 @@ export const strengths: Strength[] = [
 export const projects: Project[] = [
   {
     title: "Slot Game Framework",
-    description: "A reusable frontend framework built on Pixi.js, providing a shared foundation for developing slot games.",
-    tags: ["TypeScript", "Pixi.js"],
+    description: "A reusable frontend framework built on PixiJS, providing a shared foundation for developing slot games.",
+    tags: ["TypeScript", "PixiJS"],
     href: "",
     linkEnabled: false,
   },
   {
     title: "Slot Game Development",
-    description: "A range of slot games spanning interactive TypeScript and Pixi.js frontends and Java backends.",
-    tags: ["TypeScript", "Pixi.js", "Java"],
+    description: "A range of slot games spanning interactive TypeScript and PixiJS frontends and Java backends.",
+    tags: ["TypeScript", "PixiJS", "Java"],
     href: "",
     linkEnabled: false,
   },
@@ -110,7 +110,7 @@ export const techStack: TechItem[] = [
   { label: "Vue" },
   { label: "React" },
   { label: "Tailwind CSS" },
-  { label: "Pixi.js" },
+  { label: "PixiJS" },
   { label: "Godot" },
   { label: "Go" },
   { label: "Python" },
