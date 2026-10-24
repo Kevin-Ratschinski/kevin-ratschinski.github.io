@@ -14,6 +14,8 @@ export interface Project {
   description: string;
   tags: string[];
   href: string;
+  /** Set to true to turn the project card into a link using href. */
+  linkEnabled?: boolean;
 }
 
 export interface TechItem {
@@ -44,6 +46,7 @@ export const projects: Project[] = [
     description: "One-liner describing the project.",
     tags: ["TypeScript"],
     href: "https://github.com/kevin-ratschinski",
+    linkEnabled: false,
   },
 ];
 
