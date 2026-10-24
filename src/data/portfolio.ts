@@ -70,7 +70,8 @@ export const projects: Project[] = [
   },
   {
     title: "Electron Kiosk Applications",
-    description: "Desktop wrappers that turn web applications into dedicated kiosk experiences, with restricted permissions and controlled access to web content.",
+    description:
+      "Desktop wrappers that turn web applications into dedicated kiosk experiences, with restricted permissions and controlled access to web content.",
     tags: ["Electron", "Kiosk Mode"],
     href: "",
     linkEnabled: false,
@@ -84,8 +85,9 @@ export const projects: Project[] = [
   },
   {
     title: "AI Gateway with LiteLLM",
-    description: "A central gateway for AI APIs, bringing user management and load balancing together through LiteLLM.",
-    tags: ["LiteLLM", "AI APIs", "Load Balancing"],
+    description:
+      "A central gateway for AI APIs, combining user management and load balancing through LiteLLM with a Grafana dashboard for tracking LLM metrics.",
+    tags: ["LiteLLM", "Grafana", "AI APIs", "Load Balancing"],
     href: "",
     linkEnabled: false,
   },
