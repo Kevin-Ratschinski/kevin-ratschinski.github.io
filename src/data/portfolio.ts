@@ -40,12 +40,60 @@ export const strengths: Strength[] = [
 ];
 
 export const projects: Project[] = [
-  // Placeholder
   {
-    title: "Project",
-    description: "One-liner describing the project.",
-    tags: ["TypeScript"],
-    href: "https://github.com/kevin-ratschinski",
+    title: "Slot Game Framework",
+    description: "A reusable frontend framework built on Pixi.js, providing a shared foundation for developing slot games.",
+    tags: ["TypeScript", "Pixi.js"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "Slot Game Development",
+    description: "A range of slot games spanning interactive TypeScript and Pixi.js frontends and Java backends.",
+    tags: ["TypeScript", "Pixi.js", "Java"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "Access & Approval Management",
+    description: "An internal application for managing user permissions and guiding access requests through a structured approval workflow.",
+    tags: ["TypeScript", "Node.js"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "Visitor Registration Terminal",
+    description: "A visitor check-in application that records company visits and gives reception staff a clear overview of registered visitors.",
+    tags: ["React", "Node.js", "PostgreSQL"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "Electron Kiosk Applications",
+    description: "Desktop wrappers that turn web applications into dedicated kiosk experiences, with restricted permissions and controlled access to web content.",
+    tags: ["Electron", "Kiosk Mode"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "Local LLM Hosting",
+    description: "Self-hosted language models served through vLLM, making AI inference available on local infrastructure.",
+    tags: ["vLLM", "LLMs", "Self-hosted"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "AI Gateway with LiteLLM",
+    description: "A central gateway for AI APIs, bringing user management and load balancing together through LiteLLM.",
+    tags: ["LiteLLM", "AI APIs", "Load Balancing"],
+    href: "",
+    linkEnabled: false,
+  },
+  {
+    title: "MCP Servers for Business Tools",
+    description: "Custom MCP servers that connect AI applications to company data and workflows, making internal tools available through a shared protocol.",
+    tags: ["MCP", "AI Integration"],
+    href: "",
     linkEnabled: false,
   },
 ];
